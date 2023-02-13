@@ -20,7 +20,7 @@ function Company() {
               <p>
                 We have always been exploring what a simple and intelligent home
                 appliance brand should have, which is exactly why Der
-                Düsseldorfer Roboter was founded. We firmly believe that
+                Düsseldorfer Robot was founded. We firmly believe that
                 scientific and technological founded.
               </p>
               <p>
@@ -34,7 +34,7 @@ function Company() {
         </div>
 
         <div className="about_image">
-          <img src={Robot3} alt="" />
+          <img src={Robot3} alt="Robot in the living room" />
         </div>
       </div>
     </section>

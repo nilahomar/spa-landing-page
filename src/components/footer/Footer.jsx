@@ -21,13 +21,13 @@ function Footer() {
           </li>
         </ul>
         <div className="address">
-          <p>Der Düsseldorfer Roboter</p>
+          <p>Der Düsseldorfer Robot</p>
           <p>12345 Düsseldorf</p>
           <p>Germany</p>
         </div>
       </div>
       <div className="footer_copyright">
-        <small>&copy; Der Dusseldorfer Roboter</small>
+        <p>&copy; Der Dusseldorfer Robot</p>
         <a href="#">Terms and Conditions</a>
         <a href="#">Privacy Policy</a>
       </div>

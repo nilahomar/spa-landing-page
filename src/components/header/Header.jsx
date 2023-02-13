@@ -6,7 +6,7 @@ function Header() {
     <div className="container intro">
       <div className="intro_wrapper">
         <div>
-          <h1 className="intro_name">Der Düsseldorfer Roboter</h1>
+          <h1 className="intro_name">Der Düsseldorfer Robot</h1>
         </div>
         <div>
           <h3 className="intro_description">

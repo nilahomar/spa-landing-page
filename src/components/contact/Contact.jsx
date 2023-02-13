@@ -72,7 +72,6 @@ const Contact = () => {
           <button id="contact-submit" type="submit" className="btn btn_primary">
             Send Message
           </button>
-          {/* <button onClick={resetInputField}>Reset</button> */}
           {submitted && (
             <div className="success-message">
               <p>

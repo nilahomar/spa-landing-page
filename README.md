@@ -1,4 +1,4 @@
-# Der Düsseldorfer Roboter
+# Der Düsseldorfer Robot
 
 Codebase for the Single Page application where users can learn more about our products and get notified when a product is available.
 
