@@ -28,9 +28,9 @@ nav a.active {
   background: var(--color-brickRed);
 }
 
-.logo {
+/* .logo {
   font-size: 3rem;
-}
+} */
 
 .navbar_opt {
   display: flex;
@@ -46,6 +46,7 @@ nav a.active {
   nav {
     position: relative;
     width: 0;
+    padding: 0;
   }
 
   .topnav {
@@ -56,17 +57,22 @@ nav a.active {
     z-index: 100;
   }
 
+  .nav_icon {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .navbar_opt {
     display: none;
     flex-direction: column;
-    gap: 0;
+    gap: 1rem;
   }
 
   /* Style navigation menu links */
   .topnav a {
     padding: 14px 16px;
-    font-size: 17px;
-    display: flex;
+    font-size: 1rem;
+    /* display: flex; */
   }
 
   /* Style the hamburger menu */
@@ -77,4 +83,9 @@ nav a.active {
     top: 0;
     color: var(--color-brickRed);
   }
+
+  nav .logo{
+    font-size: 2rem;
+  }
+
 }
