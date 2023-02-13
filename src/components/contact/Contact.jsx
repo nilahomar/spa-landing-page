@@ -8,7 +8,6 @@ import { useState } from "react";
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
-  const [name, setName] = useState("");
   const [title, setTitle] = useState("");
 
   //form email
@@ -27,18 +26,23 @@ const Contact = () => {
     //     }
     //   );
     e.target.reset();
+    setTitle("");
     setSubmitted(true);
   };
 
   const handleChange = (e) => {
     e.preventDefault();
-    setName(e.target.value);
   };
 
   const handleTitleChange = (e) => {
     e.preventDefault();
     setTitle(e.target.value);
   };
+
+  // const resetInputField = () => {
+  //   setTitle("");
+  // };
+
 
   return (
     <section id="contact">
@@ -68,10 +72,11 @@ const Contact = () => {
           <button id="contact-submit" type="submit" className="btn btn_primary">
             Send Message
           </button>
+          {/* <button onClick={resetInputField}>Reset</button> */}
           {submitted && (
             <div className="success-message">
               <p>
-                Hello {name}, Thank you for your message. We will be in touch with you shortly!!{" "}
+                Thank you for your message. We will be in touch with you shortly!!{" "}
               </p>
             </div>
           )}
