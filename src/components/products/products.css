@@ -128,9 +128,8 @@
 /* Media query medium device */
 @media screen and (max-width: 1024px) {
   .product_container {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
-
   .modal_image {
     display: none;
   }

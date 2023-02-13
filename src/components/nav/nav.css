@@ -28,9 +28,9 @@ nav a.active {
   background: var(--color-brickRed);
 }
 
-/* .logo {
-  font-size: 3rem;
-} */
+nav .logo {
+  font-size: 2rem;
+}
 
 .navbar_opt {
   display: flex;
@@ -68,14 +68,11 @@ nav a.active {
     gap: 1rem;
   }
 
-  /* Style navigation menu links */
   .topnav a {
     padding: 14px 16px;
     font-size: 1rem;
-    /* display: flex; */
   }
 
-  /* Style the hamburger menu */
   .topnav a.icon {
     display: block;
     position: absolute;
@@ -84,8 +81,7 @@ nav a.active {
     color: var(--color-brickRed);
   }
 
-  nav .logo{
-    font-size: 2rem;
+  nav .logo {
+    font-size: 1.5rem;
   }
-
 }
