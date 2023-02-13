@@ -59,7 +59,7 @@ const Contact = () => {
             name="message"
             rows="10"
             placeholder="Your Message"
-            // value={title}
+            value={title}
             onChange={handleTitleChange}
             required
           >
@@ -71,7 +71,7 @@ const Contact = () => {
           {submitted && (
             <div className="success-message">
               <p>
-                Thank you for your message. We will be in touch with you shortly!!{" "}
+                Hello {name}, Thank you for your message. We will be in touch with you shortly!!{" "}
               </p>
             </div>
           )}

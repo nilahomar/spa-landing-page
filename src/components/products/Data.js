@@ -8,7 +8,7 @@ const data = [
     id: 1,
     image: Robot1,
     title: "Robot Model1",
-    description: "Our most powerful WiFi-connected robotic vacuum that removes dust and particles from even the hard-to-reach corners of your home. The best Roomba for pet hair.",
+    description: "Our most powerful WiFi-connected robotic vacuum that removes dust and particles from even the hard-to-reach corners of your home.",
     content: "Our Model1 is an autonomous vacuum cleaner robot that will be launched in September 2020. He has a set of sensors that allow him to navigate the floor of an apartment. These sensors can detect the presence of obstacles.",
   },
   {

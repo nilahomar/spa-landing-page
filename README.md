@@ -1,11 +1,43 @@
-# Welcome to my Portfolio
+# Der Düsseldorfer Roboter
 
-I am a Front-end Software Developer based in Berlin who is passionate about fixing our day to day problems
-by the applied use of Technology. Since more and more businesses are digitising their medium of communication with their customers, I understand the demand for the skills required and ready to take up the challenge.
+Codebase for the Single Page application where users can learn more about our products and get notified when a product is available.
 
-You can access the Portfolio site at https://nilahomar.info/.
+## Requirements
 
-## About the project
+The development of this application has been done in the following environment
 
-As part of Digital Career Institute's 1 year Fullstack Developer course curriculum, I designed this Portfolio site to demonstrate my skills in Frontend development using ReactJS.
+```sh
+  node : 19.4.0
+  npm : 9.2.0
+  react : 18.2.0
 
+# Install node
+  brew install node
+```
+
+## How to run
+
+Download and extract the zip file to a preferred location in your system.
+Necessary dependencies to run this app can be installed to the local development environment using the information in package.json file as below and dependencies will be stored under `node_modules`.
+Open your favorite shell, change into the extracted folder and run the below command
+
+```sh
+cd <download path>
+unzip annalect.zip
+cd annalect
+
+# Install dependencies
+npm install
+
+// To start serving the app
+npm run start
+```
+
+This should open the url `http://localhost:3000` in your default browser and you will be able to see the landing page.
+
+## Implementation
+
+This application is designed in ReactJS and used CSS for styling.
+The core CSS properties can be found in the [file](src/index.css) and custom parameter settings with individual [components](src/components) as well.
+
+The app is optimised to work with small device resolutions such as Tablets and Mobile phones using Media query.
