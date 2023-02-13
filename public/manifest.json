@@ -1,0 +1,8 @@
+{
+  "short_name": "Roboter",
+  "name": "Der Düsseldorfer Roboter",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
