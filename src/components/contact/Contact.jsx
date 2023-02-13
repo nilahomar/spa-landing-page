@@ -1,10 +1,10 @@
 import React from "react";
 import "./contact.css";
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 import { useState } from "react";
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+// const API_KEY = process.env.REACT_APP_API_KEY;
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -16,16 +16,16 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm("service_eqo9ogi", "template_5nnmvts", form.current, API_KEY)
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm("service_eqo9ogi", "template_5nnmvts", form.current, API_KEY)
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
     e.target.reset();
     setSubmitted(true);
   };
@@ -59,7 +59,7 @@ const Contact = () => {
             name="message"
             rows="10"
             placeholder="Your Message"
-            value={title}
+            // value={title}
             onChange={handleTitleChange}
             required
           >
@@ -71,10 +71,7 @@ const Contact = () => {
           {submitted && (
             <div className="success-message">
               <p>
-                Hey, {name.toLocaleUpperCase()}. Thanks for your message{" "}
-                <span role="img" aria-label="smile">
-                  😊
-                </span>
+                Thank you for your message. We will be in touch with you shortly!!{" "}
               </p>
             </div>
           )}
