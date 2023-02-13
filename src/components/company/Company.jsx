@@ -7,7 +7,7 @@ function Company() {
     <section id="company">
       <h2>LIVE SMART, LIVE EASY</h2>
       <p className="company_about_content">
-        Since it was founded in 2013, Der Düsseldorfer Robot has become a
+        Since it was founded in 2013, Düsseldorfer Robot has become a
         leading enterprise in the field of smart home appliances. It is
         dedicated to providing global users with the best solutions, products,
         and services regarding smart home appliances to help every family
